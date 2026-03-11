@@ -1,0 +1,30 @@
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    color: #b03b3b;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0px 0px 10px 0px #333333;  
+}
+.cart {
+    font-size: 25px;
+    position: relative;
+}
+.cart:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+
+.count {
+    background-color: red;  
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+    font-size: 20px;
+    padding: 0px 2px 0px 2px;
+    color: #ffffff;
+}
